@@ -6,11 +6,11 @@ This is a proyect for the MIT xPro Professional Certificate in Coding.
 
 The objetive of this exercise was lern how to use "useEffect", "useReducer", and how to fetch data from react.
 
-In a second part od the project I implement a navigation bar with three buttons witch bring us two new views: Movies and Books. To made it I used Web Components (Custom Elements) and a vanilla JS hash routing.
+In a second part of the project I implemented a navigation bar with three buttons that bring us two new views: Movies and Books. To do this I used web components (custom elements) and vanilla JS hash routing.
 
 ## Usage
 
-This was one of the javascript projects developed for the fullstack MITxPro program. In this case I used Create React App for search songs, artists, albums or music videos from Apple Music. I used the iTunes Search Api for this task.
+This was one of the ReactJS projects developed for the fullstack MITxPro program. In this case, I created a React app to search for Apple Music songs, artists, albums, or music videos. Plus, you have two additional views for searching for books and movies. I used the iTunes Search API for this task.
 
 You could see this app working in this link: https://jbdigital.online/applemusic/
 
