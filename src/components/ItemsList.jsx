@@ -1,6 +1,6 @@
 import Pagination from "./Pagination";
 import paginate from "../helpers/paginate";
-import { ItemListArtist, ItemListSong, ItemListAlbum } from "./ItemsListCards";
+import { ItemListArtist, ItemListSong, ItemListAlbum, ItemListBook, ItemListAuthor, ItemListMovie } from "./ItemsListCards";
 import ItemsPerPageInput from "./ItemsPerPageInput";
 
 const ItemsList = ({
@@ -28,7 +28,7 @@ const ItemsList = ({
 								key={item.trackId}></ItemListSong>
 						);
 					})}
-				{entity === "musicArtist" &&
+				{(entity === "musicArtist" || entity === "movieArtist") &&
 					page.map((item, index) => {
 						return (
 							<ItemListArtist
@@ -46,6 +46,34 @@ const ItemsList = ({
 								key={
 									item.collectionName + String(index)
 								}></ItemListAlbum>
+						);
+					})}
+				{(entity === "ebook") &&
+					page.map((item) => {
+						return (
+							<ItemListBook
+								item={item}
+								key={item.trackId}></ItemListBook>
+						);
+					})}
+				{entity === "ebookAuthor" &&
+					page.map((item, index) => {
+						return (
+							<ItemListAuthor
+								item={item}
+								key={
+									item.artistId + String(index)
+								}></ItemListAuthor>
+						);
+					})}
+				{entity === "movie" &&
+					page.map((item, index) => {
+						return (
+							<ItemListMovie
+								item={item}
+								key={
+									item.artistId + String(index)
+								}></ItemListMovie>
 						);
 					})}
 			</ul>

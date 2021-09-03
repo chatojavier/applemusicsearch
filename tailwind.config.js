@@ -14,7 +14,11 @@ module.exports = {
 			red: "#d60017",
 			white: "#fff",
 		},
-		extend: {},
+		extend: {
+			maxWidth: {
+				"8/10": "80%",
+			},
+		},
 	},
 	variants: {
 		extend: {

@@ -1,6 +1,6 @@
 # Fetching data in React Exercise
 
-<img src="./Screenshot.png" />
+<img src="./screenshot.png" />
 
 This is a proyect for the MIT xPro Professional Certificate in Coding.
 

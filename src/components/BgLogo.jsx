@@ -8,7 +8,7 @@ const BgLogo = () => {
 				version='1.1'
 				viewBox='0 0 20 24'
 				className=' opacity-20 fill-current'
-				ariaHidden='true'>
+				aria-hidden='true'>
 				<path
 					fillRule='nonzero'
 					stroke='none'
