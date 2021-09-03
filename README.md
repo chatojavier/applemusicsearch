@@ -1,10 +1,12 @@
 # Fetching data in React Exercise
 
-<img src="./screenshot.png" />
+<img src="./Screenshot.png" />
 
 This is a proyect for the MIT xPro Professional Certificate in Coding.
 
 The objetive of this exercise was lern how to use "useEffect", "useReducer", and how to fetch data from react.
+
+In a second part od the project I implement a navigation bar with three buttons witch bring us two new views: Movies and Books. To made it I used Web Components (Custom Elements) and a vanilla JS hash routing.
 
 ## Usage
 
